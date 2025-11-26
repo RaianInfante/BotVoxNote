@@ -1,4 +1,6 @@
 # VOX Note - Bot para Reuniões do Discord
+![Logo VoxNote](blob:https://web.whatsapp.com/71c4068d-0ad4-48c5-bb2f-bc974609b0ff)
+
 
 Projeto desenvolvido para a disciplina **Análise de Projetos II** do 4ᵒ semestre do curso de **Análise e Desenvolvimento de Sistemas** da **CEUNSP**.  
 O VOX Note é um bot para Discord que captura o áudio de reuniões, transcreve e gera atas resumidas com auxílio de inteligência artificial, facilitando o registro e a consulta de informações importantes.
