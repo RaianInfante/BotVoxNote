@@ -49,10 +49,9 @@ Ele grava áudio, transcreve utilizando **Whisper**, e gera atas padronizadas co
 ~~~mermaid
 flowchart TD
 
-A[Usuários no Discord] --> B[Bot conecta ao canal de voz]
-B --> C[Captura de Áudio]
+A[Usuários no Discord]--> Envia áudio para sala de texto
 C --> D[Transcrição via Whisper]
-D --> E[Resumo com OpenAI]
+D --> E[Resumo via Whisper]
 E --> F[Geração da Ata .pdf]
 F --> G[Entrega da Ata ao Usuário]
 ~~~
@@ -131,28 +130,6 @@ python bot.py
 5. Resume com OpenAI  
 6. Gera a ata  
 7. Envia ao usuário  
-
----
-
-# 📚 Estrutura do Projeto (sugerida)
-
-~~~
-📦vox-note
- ┣ 📂audio
- ┣ 📂transcricoes
- ┣ 📂atas
- ┣ 📜requirements.txt
- ┣ 📜bot.py
- ┣ 📜utils.py
- ┣ 📜processamento.py
- ┣ 📜README.md
- ┗ 📜.env
-~~~
-
----
-
-# 🛡️ Licença
-Distribuído sob a licença **MIT**.
 
 ---
 
