@@ -49,7 +49,7 @@ Ele grava áudio, transcreve utilizando **Whisper**, e gera atas padronizadas co
 ~~~mermaid
 flowchart TD
 
-A[Usuários no Discord]--> Envia áudio para sala de texto
+A[Usuários no Discord]--> B [Envia áudio para sala de texto]
 C --> D[Transcrição via Whisper]
 D --> E[Resumo via Whisper]
 E --> F[Geração da Ata .pdf]
