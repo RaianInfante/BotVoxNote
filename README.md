@@ -12,10 +12,7 @@ O VOX Note é um bot para Discord que captura o áudio de reuniões, transcreve 
 - **Scrum Master**: Gabriele Martins  
 - **Programador 1**: Enzo Vinicius  
 - **Programador 2**: Enzo Guimarães  
-- **Analista de Negócios**: Alisson Ryan  
-- **Documentador Técnico**: Samuel    
-- **Inspetor de Qualidade**: Nicolas Lopes  
-- **Analista de Testes**: Igor Lopes  
+- **Analista de Negócios**: Alisson Ryan    
 
 ---
 
